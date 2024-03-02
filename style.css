@@ -297,6 +297,7 @@ h2{
     background-color: white;
     height: auto;
 }
+
 .team h3{
     color: #337b27;
     font-size: 25px;
@@ -316,7 +317,8 @@ h2{
     display: block;
 }
 .icon ul li{
-    display: inline-block; 
+    display: inline-block;
+    padding: 3px; 
 }
 .icon ul a{
     font-size: 15px;
@@ -407,6 +409,11 @@ h2{
     nav .a a{
         margin-right: 0px;  
     }
+    .button{
+        color: #25A610;
+    }
+    nav a:hover, .nav-item a:hover, nav a.dropdown-item:hover{
+        color: #25A610;
 
     /*hero*/
     .hero{
@@ -446,7 +453,6 @@ h2{
         min-width: 80% !important;
     }
     }
-
 
 
     @media screen and (max-width: 768px) {
